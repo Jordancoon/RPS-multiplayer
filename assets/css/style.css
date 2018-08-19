@@ -1,0 +1,62 @@
+
+/* SASS VARIABLES   **********************/
+/* HTML SELECTORS   **********************/
+* {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+  
+  button {
+    cursor: pointer; }
+  
+  /* UTITLIES **********************/
+  .bgp1 {
+    background-color: #3399ff;
+    color: #ffffff; }
+  
+  .bgp2 {
+    background-color: #ff9933;
+    color: #ffffff; }
+  
+  /* CUSTOM SELECTORS **********************/
+  .devModeBanner {
+    display: none; }
+  
+  .header {
+    margin: 2rem 0;
+ }
+  
+  .stage .status {
+    margin: 1rem 0 2rem 0; }
+  .stage .card button {
+    visibility: hidden; }
+  .stage .card .card-block .card-text {
+    text-align: center;
+    font-size: 1.2rem; }
+  .stage .card .card-footer {
+    text-transform: uppercase;
+    font-size: .8rem; }
+  
+  .shoutbox {
+    display: none;
+    margin: 2rem 0; }
+    .shoutbox .shouts {
+      height: 10rem;
+      overflow-y: auto;
+      vertical-align: bottom; }
+      .shoutbox .shouts .speaker {
+        font-weight: bold; }
+    .shoutbox .card-footer {
+      background-color: #dbdbdb; }
+  
+  .footer #clearButton {
+    display: none; }
+  
+  /* BOOTSTRAP OVERRIDES **********************/
+  .player1 .btn-secondary.active {
+    background-color: #3399ff;
+    color: #ffffff; }
+  
+  .player2 .btn-secondary.active {
+    background-color: #ff9933;
+    color: #ffffff; }
