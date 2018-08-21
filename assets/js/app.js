@@ -36,14 +36,14 @@ var p2key;
 FIREBASE
 ======================================= */
 // Initialize Firebase
-  var config = {
-    apiKey: "AIzaSyCcaEXhv4mIMoQ5FG66iqB2yRIyZj38lmg",
-    authDomain: "rps-multiplayer-5d14c.firebaseapp.com",
-    databaseURL: "https://rps-multiplayer-5d14c.firebaseio.com",
-    projectId: "rps-multiplayer-5d14c",
-    storageBucket: "rps-multiplayer-5d14c.appspot.com",
-    messagingSenderId: "22102044344"
-  };
+var config = {
+  apiKey: "AIzaSyACGCtAB6gUWdhD3w6T_0T19bjwkTPZO0Q",
+  authDomain: "fir-demo-fa4cf.firebaseapp.com",
+  databaseURL: "https://fir-demo-fa4cf.firebaseio.com",
+  projectId: "fir-demo-fa4cf",
+  storageBucket: "fir-demo-fa4cf.appspot.com",
+  messagingSenderId: "868536813897"
+};
 firebase.initializeApp(config);
 var database = firebase.database();
 
