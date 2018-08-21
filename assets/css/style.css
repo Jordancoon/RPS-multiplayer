@@ -22,7 +22,8 @@
   .devModeBanner {
     display: none; }
   
-  .header {
+  .header { 
+    font-family: 'Faster One', cursive;
     margin: 2rem 0;
  }
   
@@ -38,6 +39,7 @@
     font-size: .8rem; }
   
   .shoutbox {
+    font-family: 'Faster One', cursive;
     display: none;
     margin: 2rem 0; }
     .shoutbox .shouts {
